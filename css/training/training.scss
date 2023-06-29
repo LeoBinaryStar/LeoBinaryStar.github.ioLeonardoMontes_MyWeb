@@ -1,0 +1,31 @@
+$color-bg-card: #6D80EC;
+$color-border: #3C8AE2;
+$color-texto: #45367E;
+
+
+.card-training{
+	width: 23rem;
+	background-color: $color-bg-card;
+	text-align: center;
+	margin: 1.5rem 1.175rem;
+	border: 14px solid $color-border;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 0 1px $color-border, 0.1em 0.1em 1em $color-border;
+}
+
+.card-training h3{
+	font-size: 2.15rem;
+	font-weight: bold;
+}
+
+.card-training p{
+	font-size: 1.45rem;
+	font-weight: 600;
+	color: $color-texto;
+}
+
+.card-training img{
+	max-width: 6rem;
+	max-height: 6rem;
+}
