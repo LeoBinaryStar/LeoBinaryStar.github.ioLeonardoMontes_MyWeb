@@ -21,6 +21,11 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
 jobs:
   # Build job
   build:
