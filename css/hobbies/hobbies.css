@@ -1,0 +1,120 @@
+.card-hobbies {
+  width: 10.5rem;
+  background-color: #3372D1;
+  text-align: center;
+  margin: 1.5rem 1.175rem;
+  border: 14px solid #705BE7;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 0 1px #705BE7, 0.1em 0.1em 1em #705BE7;
+}
+
+.card-hobbies h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.card-hobbies p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.card-hobbies img {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+}
+
+/*Videogames*/
+.card-hobbies #celeste {
+  transform: rotate(-10deg);
+  margin: -4rem -8rem;
+}
+
+.card-hobbies #overwatch {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  margin: 11rem 2rem;
+}
+
+.card-hobbies img:hover {
+  transform: scale(1.05);
+}
+
+/*Anime*/
+.card-hobbies #pokemon {
+  width: 5rem;
+  height: 3.5rem;
+  transform: rotate(-10deg);
+  margin: -3rem -7rem;
+}
+
+.card-hobbies #jojo {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  margin: 11rem 2rem;
+}
+
+/*Chess*/
+.card-hobbies #knight {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(-10deg);
+  margin: -3rem -7rem;
+}
+
+.card-hobbies #queen {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  margin: 10.5rem 2rem;
+}
+
+/*Jogging*/
+.card-hobbies #jogging {
+  width: 3rem;
+  height: 3.2rem;
+  transform: rotate(-10deg);
+  margin: -1.8rem -6rem;
+}
+
+.card-hobbies #jogging2 {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  margin: 10.5rem 2rem;
+}
+
+/*Literature*/
+.card-hobbies #book {
+  width: 3rem;
+  height: 3.2rem;
+  transform: rotate(-10deg);
+  margin: -3rem -6rem;
+}
+
+.card-hobbies #book2 {
+  width: 4rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  margin: 11rem 2rem;
+}
+
+/*Music*/
+.card-hobbies #music {
+  width: 8rem;
+  height: 8rem;
+  transform: rotate(-10deg);
+  margin: -5rem -8.5rem;
+}
+
+.card-hobbies #music2 {
+  width: 4rem;
+  height: 3.5rem;
+  transform: rotate(10deg);
+  margin: 11rem 2rem;
+}
+
+/*# sourceMappingURL=hobbies.css.map */

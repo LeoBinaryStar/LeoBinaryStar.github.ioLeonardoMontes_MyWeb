@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #141c3d;
+  border-top: 0.4rem solid #8BB5E9;
+}
+
+.footer .flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer img {
+  width: 7.5rem;
+}
+
+.footer h5, .footer h6 {
+  color: #E3DFED;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,50 @@
+h1 {
+  color: #FF1CC1;
+  font-family: sans-serif, Helvetica, Arial;
+}
+
+h4 {
+  color: #B130FA;
+}
+
+p {
+  color: #C8B8ED;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.proyects #text-encryptor {
+  width: 30rem;
+  border-radius: 8px;
+}
+
+.proyects .button {
+  width: 13rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #4DD7F1;
+  border-radius: 4px;
+  background-color: #24336C;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #284E98), to(#24336C));
+  background-image: linear-gradient(#284E98 10%, #24336C 100%);
+  cursor: pointer;
+}
+
+.proyects .button:hover, .proyects .button:focus {
+  background-color: #284E98;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4DD7F1), to(#284E98));
+  background-image: linear-gradient(#4DD7F1 10%, #284E98 100%);
+}
+
+.proyects .button a {
+  color: #EFEFEF;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.proyects .button-image {
+  width: 3rem;
+}
+
+/*# sourceMappingURL=proyects.css.map */

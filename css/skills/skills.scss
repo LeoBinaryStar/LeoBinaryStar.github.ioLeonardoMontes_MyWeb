@@ -1,0 +1,37 @@
+$color-bg-card: #705BE7;
+$multicolor-1: #00A4BD;
+$multicolor-2: #D075EC;
+$multicolor-3:	#334758;
+$color-border:#3372D1;
+$color-texto: #E5E1EF;
+
+.card-skills{
+	width: 17rem;
+	background-color: $color-bg-card;
+	text-align: center;
+	margin: 1.5rem 1rem;
+	border: 4px solid $color-border;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 4px 4px $multicolor-1, 8px 8px $multicolor-2, 12px 12px $multicolor-3;
+}
+
+.card-skills h3{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.card-skills p{
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: $color-texto;
+}
+
+.card-skills img{
+	width: 8rem;
+	height: 8rem;
+}
+
+.card-skills img:hover{
+	transform: scale(1.05);
+}

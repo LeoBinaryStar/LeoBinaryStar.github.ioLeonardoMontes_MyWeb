@@ -1,0 +1,28 @@
+.card-training {
+  width: 23rem;
+  background-color: #6D80EC;
+  text-align: center;
+  margin: 1.5rem 1.175rem;
+  border: 14px solid #3C8AE2;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 0 1px #3C8AE2, 0.1em 0.1em 1em #3C8AE2;
+}
+
+.card-training h3 {
+  font-size: 2.15rem;
+  font-weight: bold;
+}
+
+.card-training p {
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #45367E;
+}
+
+.card-training img {
+  max-width: 6rem;
+  max-height: 6rem;
+}
+
+/*# sourceMappingURL=training.css.map */

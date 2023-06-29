@@ -1,0 +1,15 @@
+.card-social {
+	width: 12rem;
+	background-color: transparent;
+}
+
+.card-social img {
+	width: 18rem;
+	padding-right: 6rem;
+}
+
+.card-social img:hover {
+	transform: scale(1.1) rotate(10deg);
+}
+
+/*# sourceMappingURL=socialMedia.css.map */
