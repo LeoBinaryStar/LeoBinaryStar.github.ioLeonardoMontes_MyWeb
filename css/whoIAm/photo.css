@@ -4,4 +4,45 @@
 	width: 20rem;
 }
 
+/*Responsive*/
+@media (max-width: 1045px) {
+	.myPhoto {
+		border: 0.2rem solid #48D3ED;
+		border-radius: 90%;
+		width: 16rem;
+	}
+}
+
+@media (max-width: 850px) {
+	.myPhoto {
+		border: 0.2rem solid #48D3ED;
+		border-radius: 90%;
+		width: 12rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.myPhoto {
+		border: 0.2rem solid #48D3ED;
+		border-radius: 90%;
+		width: 2rem;
+	}
+}
+
+@media (max-width: 550px) {
+	.myPhoto {
+		border: 0.2rem solid #48D3ED;
+		border-radius: 90%;
+		width: 3rem;
+	}
+}
+
+@media (max-width: 430px) {
+	.myPhoto {
+		border: 0.2rem solid #48D3ED;
+		border-radius: 90%;
+		width: 6rem;
+	}
+}
+
 /*# sourceMappingURL=photo.css.map */

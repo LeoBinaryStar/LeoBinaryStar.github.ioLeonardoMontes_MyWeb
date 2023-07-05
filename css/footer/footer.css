@@ -1,24 +1,185 @@
 .footer {
-  width: 100%;
-  text-align: center;
-  background-color: #141c3d;
-  border-top: 0.4rem solid #8BB5E9;
+	width: 100%;
+	text-align: center;
+	background-color: #141c3d;
+	border-top: 0.4rem solid #8BB5E9;
 }
 
 .footer .flex {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
 
 .footer img {
-  width: 7.5rem;
+	width: 7.5rem;
 }
 
-.footer h5, .footer h6 {
-  color: #E3DFED;
+.footer h5,
+.footer h6 {
+	color: #E3DFED;
+}
+
+/*Responsive*/
+@media (max-width: 575px) {
+	.footer img {
+		width: 6.5rem;
+	}
+}
+
+@media (max-width: 525px) {
+	.footer img {
+		width: 6rem;
+	}
+}
+
+@media (max-width: 485px) {
+	.footer img {
+		width: 5rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.footer img {
+		width: 4.5rem;
+	}
+
+	.footer h4 {
+		font-size: 1.25rem;
+	}
+
+	.footer h5,
+	.footer h6 {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 390px) {
+	.footer {
+		width: 101%;
+	}
+
+	.footer h4 {
+		font-size: 1.15rem;
+	}
+}
+
+@media (max-width: 345px) {
+	.footer {
+		width: 105%;
+	}
+
+	.footer h4 {
+		font-size: 1rem;
+	}
+
+	.footer img {
+		width: 4rem;
+	}
+}
+
+@media (max-width: 325px) {
+	.footer {
+		width: 103%;
+	}
+
+	.footer h4 {
+		font-size: 0.9rem;
+	}
+
+	.footer img {
+		width: 3rem;
+	}
+
+	.btn {
+		width: 5rem;
+		margin-left: -0.5rem;
+	}
+}
+
+@media (max-width: 285px) {
+	.footer {
+		width: 103%;
+	}
+
+	.footer h4 {
+		font-size: 0.85rem;
+	}
+
+	.footer h5,
+	.footer h6 {
+		font-size: 0.8rem;
+	}
+
+	.footer img {
+		width: 3.5rem;
+	}
+
+	.btn {
+		width: 15rem;
+		margin-left: -0.5rem;
+	}
+}
+
+@media (max-width: 260px) {
+	.footer {
+		width: 103%;
+	}
+
+	.footer h4 {
+		font-size: 0.75rem;
+	}
+
+	.footer h5,
+	.footer h6 {
+		font-size: 0.7rem;
+	}
+
+	.footer img {
+		width: 3.5rem;
+	}
+
+	.btn {
+		width: 5rem;
+		margin-left: -1rem;
+	}
+}
+
+@media (max-width: 260px) {
+	.footer {
+		width: 101%;
+	}
+
+	.btn {
+		width: 5rem;
+		margin-left: -2rem;
+	}
+}
+
+@media (max-width: 205px) {
+	.footer {
+		width: 102%;
+	}
+
+	.footer h4 {
+		font-size: 0.6rem;
+	}
+
+	.footer h5,
+	.footer h6 {
+		font-size: 0.55rem;
+	}
+
+	.flex {
+		margin-left: 1rem;
+	}
+
+	.btn {
+		width: 5rem;
+		margin-left: -2.5rem;
+	}
 }
 
 /*# sourceMappingURL=footer.css.map */

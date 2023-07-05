@@ -1,120 +1,1069 @@
 .card-hobbies {
-  width: 10.5rem;
-  background-color: #3372D1;
-  text-align: center;
-  margin: 1.5rem 1.175rem;
-  border: 14px solid #705BE7;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 0 0 1px #705BE7, 0.1em 0.1em 1em #705BE7;
+	width: 10.5rem;
+	background-color: #3372D1;
+	text-align: center;
+	margin: 1.5rem 1.175rem;
+	border: 14px solid #705BE7;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 0 1px #705BE7, 0.1em 0.1em 1em #705BE7;
 }
 
 .card-hobbies h3 {
-  font-size: 1.75rem;
-  font-weight: bold;
+	font-size: 1.75rem;
+	font-weight: bold;
 }
 
 .card-hobbies p {
-  font-size: 1.2rem;
-  font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
 .card-hobbies img {
-  width: 6rem;
-  height: 6rem;
-  position: absolute;
+	width: 6rem;
+	height: 6rem;
+	position: absolute;
 }
 
 /*Videogames*/
 .card-hobbies #celeste {
-  transform: rotate(-10deg);
-  margin: -4rem -8rem;
+	transform: rotate(-10deg);
+	margin: -4rem -8rem;
 }
 
 .card-hobbies #overwatch {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(10deg);
-  margin: 11rem 2rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(10deg);
+	margin: 11rem 2rem;
 }
 
 .card-hobbies img:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 /*Anime*/
 .card-hobbies #pokemon {
-  width: 5rem;
-  height: 3.5rem;
-  transform: rotate(-10deg);
-  margin: -3rem -7rem;
+	width: 5rem;
+	height: 3.5rem;
+	transform: rotate(-10deg);
+	margin: -3rem -7rem;
 }
 
 .card-hobbies #jojo {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(10deg);
-  margin: 11rem 2rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(10deg);
+	margin: 11rem 2rem;
 }
 
 /*Chess*/
 .card-hobbies #knight {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(-10deg);
-  margin: -3rem -7rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(-10deg);
+	margin: -3rem -7rem;
 }
 
 .card-hobbies #queen {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(10deg);
-  margin: 10.5rem 2rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(10deg);
+	margin: 10.5rem 2rem;
 }
 
 /*Jogging*/
 .card-hobbies #jogging {
-  width: 3rem;
-  height: 3.2rem;
-  transform: rotate(-10deg);
-  margin: -1.8rem -6rem;
+	width: 3rem;
+	height: 3.2rem;
+	transform: rotate(-10deg);
+	margin: -1.8rem -6rem;
 }
 
 .card-hobbies #jogging2 {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(10deg);
-  margin: 10.5rem 2rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(10deg);
+	margin: 10.5rem 2rem;
 }
 
 /*Literature*/
 .card-hobbies #book {
-  width: 3rem;
-  height: 3.2rem;
-  transform: rotate(-10deg);
-  margin: -3rem -6rem;
+	width: 3rem;
+	height: 3.2rem;
+	transform: rotate(-10deg);
+	margin: -3rem -6rem;
 }
 
 .card-hobbies #book2 {
-  width: 4rem;
-  height: 4rem;
-  transform: rotate(10deg);
-  margin: 11rem 2rem;
+	width: 4rem;
+	height: 4rem;
+	transform: rotate(10deg);
+	margin: 11rem 2rem;
 }
 
 /*Music*/
 .card-hobbies #music {
-  width: 8rem;
-  height: 8rem;
-  transform: rotate(-10deg);
-  margin: -5rem -8.5rem;
+	width: 8rem;
+	height: 8rem;
+	transform: rotate(-10deg);
+	margin: -5rem -8.5rem;
 }
 
 .card-hobbies #music2 {
-  width: 4rem;
-  height: 3.5rem;
-  transform: rotate(10deg);
-  margin: 11rem 2rem;
+	width: 4rem;
+	height: 3.5rem;
+	transform: rotate(10deg);
+	margin: 11rem 2rem;
+}
+
+
+/*Responsive Design*/
+@media (max-width: 1345px) {
+	.card-hobbies {
+		width: 10rem;
+	}
+
+	.card-hobbies h3 {
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 1300px) {
+	.card-hobbies {
+		width: 9.75rem;
+	}
+
+	.card-hobbies h3 {
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+
+	.card-hobbies p {
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+}
+
+@media (max-width: 1270px) {
+	.card-hobbies {
+		width: 9.5rem;
+	}
+
+	.card-hobbies p {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+}
+
+@media (max-width: 1240px) {
+	.card-hobbies {
+		width: 9rem;
+	}
+
+	.card-hobbies h3 {
+		font-size: 1.3rem;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 1190px) {
+	.card-hobbies {
+		width: 8.8rem;
+	}
+}
+
+@media (max-width: 1170px) {
+	.card-hobbies {
+		width: 8.4rem;
+	}
+}
+
+@media (max-width: 1130px) {
+	.card-hobbies {
+		width: 8rem;
+	}
+
+	.card-hobbies p {
+		font-size: 0.95rem;
+		font-weight: 500;
+	}
+}
+
+@media (max-width: 1090px) {
+	.card-hobbies {
+		width: 18rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -12rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 4rem 6rem;
+	}
+
+	.card-hobbies img:hover {
+		transform: scale(1.05);
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -3rem -11rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 4rem 6rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -11rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 6rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -2.5rem -10rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 4rem 6rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -2.5rem -10rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 4rem 6rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -12.1rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 4rem 6rem;
+	}
+}
+
+@media (max-width: 1070px) {
+	.card-hobbies {
+		width: 17.5rem;
+	}
+}
+
+@media (max-width: 1040px) {
+	.card-hobbies {
+		width: 17rem;
+	}
+}
+
+@media (max-width: 1015px) {
+	.card-hobbies {
+		width: 16.5rem;
+	}
+}
+
+@media (max-width: 990px) {
+	.card-hobbies {
+		width: 16rem;
+	}
+}
+
+@media (max-width: 960px) {
+	.card-hobbies {
+		width: 15.5rem;
+	}
+}
+
+@media (max-width: 935px) {
+	.card-hobbies {
+		width: 15rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -10rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 4rem 4rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 4rem 4rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 4rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 4rem 4rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 4rem 4rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -11rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 4rem 4rem;
+	}
+}
+
+@media (max-width: 920px) {
+	.card-hobbies {
+		width: 14rem;
+	}
+}
+
+@media (max-width: 860px) {
+	.card-hobbies {
+		width: 13rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -8rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 5rem 3.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 5rem 3rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 3rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -9rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 5rem 2rem;
+	}
+}
+
+@media (max-width: 805px) {
+	.card-hobbies {
+		width: 12.5rem;
+	}
+}
+
+@media (max-width: 780px) {
+	.card-hobbies {
+		width: 12rem;
+	}
+}
+
+@media (max-width: 755px) {
+	.card-hobbies {
+		width: 11.5rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -8rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 5rem 3.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 5rem 3rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 3rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -9rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 5rem 2rem;
+	}
+}
+
+@media (max-width: 725px) {
+	.card-hobbies {
+		width: 10.5rem;
+	}
+}
+
+@media (max-width: 673px) {
+	.card-hobbies {
+		width: 15rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -10rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 5rem 3.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2.5rem -9rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 5rem 3rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 4rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -2.5rem -9rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 4rem 4rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 4rem 4rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -10rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 4rem 4rem;
+	}
+}
+
+@media (max-width: 605px) {
+	.card-hobbies {
+		width: 13rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -8rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 5rem 3.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 5rem 3rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 3rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 6rem 3rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -9rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 5rem 2rem;
+	}
+}
+
+@media (max-width: 540px) {
+	.card-hobbies {
+		width: 12rem;
+	}
+}
+
+@media (max-width: 502px) {
+	.card-hobbies {
+		width: 10rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -7rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 7rem 1rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2.5rem -7rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 7rem 3rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -2rem -6rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 8rem 1.5rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -1rem -6rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 8rem 2rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -3rem -6rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 6rem 1rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -8rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 5rem 2rem;
+	}
+}
+
+@media (max-width: 433px) {
+	.card-hobbies {
+		width: 19rem;
+		margin-left: 0;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -12rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 2rem 7rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -3rem -11rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 3rem 7rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -2rem -11rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 3rem 7rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -1rem -11rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 2rem 8rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -2rem -11rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 3rem 8rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -4rem -13rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 3rem 7rem;
+	}
+}
+
+
+@media (max-width: 380px) {
+	.card-hobbies {
+		width: 17rem;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 360px) {
+	.card-hobbies {
+		width: 15rem;
+		margin-left: 0;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -4rem -10rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 3rem 5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2rem -9rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 4rem 5rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -2rem -9rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 4rem 5rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -1rem -9rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 2rem 6rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -2rem -9rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 4rem 5rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -4rem -11rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 4rem 5rem;
+	}
+}
+
+@media (max-width: 340px) {
+	.card-hobbies {
+		width: 13rem;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 310px) {
+	.card-hobbies {
+		width: 11rem;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		margin: -3rem -9rem;
+	}
+
+	.card-hobbies #overwatch {
+		margin: 4rem 3rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		margin: -2rem -8rem;
+	}
+
+	.card-hobbies #jojo {
+		margin: 5rem 4rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		margin: -3rem -8rem;
+	}
+
+	.card-hobbies #queen {
+		margin: 5rem 2.7rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		margin: -1rem -7rem;
+	}
+
+	.card-hobbies #jogging2 {
+		margin: 4rem 4rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		margin: -2rem -7rem;
+	}
+
+	.card-hobbies #book2 {
+		margin: 5rem 3rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		margin: -5rem -9rem;
+	}
+
+	.card-hobbies #music2 {
+		margin: 4rem 2.5rem;
+	}
+}
+
+@media (max-width: 245px) {
+	.card-hobbies {
+		width: 10rem;
+	}
+
+	.card-hobbies h3 {
+		font-size: 0.9rem;
+		font-weight: bold;
+	}
+
+	.card-hobbies p {
+		font-size: 0.8rem;
+		font-weight: 500;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		width: 5rem;
+		height: 5rem;
+		margin: -3rem -7rem;
+	}
+
+	.card-hobbies #overwatch {
+		width: 4rem;
+		height: 4rem;
+		margin: 4rem 1.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		width: 4rem;
+		height: 2.7rem;
+		margin: -2rem -7rem;
+	}
+
+	.card-hobbies #jojo {
+		width: 3rem;
+		height: 3rem;
+		margin: 5rem 2.25rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		width: 3rem;
+		height: 3rem;
+		margin: -1.5rem -6rem;
+	}
+
+	.card-hobbies #queen {
+		width: 3rem;
+		height: 3rem;
+		margin: 5rem 2.7rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin: -1rem -6rem;
+	}
+
+	.card-hobbies #jogging2 {
+		width: 3rem;
+		height: 3rem;
+		margin: 4rem 3rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		width: 3rem;
+		height: 3rem;
+		margin: -2rem -6rem;
+	}
+
+	.card-hobbies #book2 {
+		width: 3rem;
+		height: 3rem;
+		margin: 4rem 2.2rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		width: 8rem;
+		height: 8rem;
+		margin: -4.25rem -8rem;
+	}
+
+	.card-hobbies #music2 {
+		width: 3rem;
+		height: 3rem;
+		margin: 4rem 2.5rem;
+	}
+}
+
+@media (max-width: 240px) {
+	.card-hobbies {
+		width: 8rem;
+	}
+
+	.card-hobbies h3 {
+		font-size: 0.72rem;
+		font-weight: bold;
+	}
+
+	.card-hobbies p {
+		font-size: 0.7rem;
+		font-weight: 500;
+	}
+
+	/*Videogames*/
+	.card-hobbies #celeste {
+		width: 4.5rem;
+		height: 4.5rem;
+		margin: -3rem -6rem;
+	}
+
+	.card-hobbies #overwatch {
+		width: 3rem;
+		height: 3rem;
+		margin: 4rem 1.5rem;
+	}
+
+	/*Anime*/
+	.card-hobbies #pokemon {
+		width: 3rem;
+		height: 2rem;
+		margin: -2rem -5rem;
+	}
+
+	.card-hobbies #jojo {
+		width: 2rem;
+		height: 2.5rem;
+		margin: 5rem 2.25rem;
+	}
+
+	/*Chess*/
+	.card-hobbies #knight {
+		width: 2rem;
+		height: 2rem;
+		margin: -1.5rem -5rem;
+	}
+
+	.card-hobbies #queen {
+		width: 2rem;
+		height: 2rem;
+		margin: 5rem 2.7rem;
+	}
+
+	/*Jogging*/
+	.card-hobbies #jogging {
+		width: 2rem;
+		height: 2rem;
+		margin: -1rem -5rem;
+	}
+
+	.card-hobbies #jogging2 {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin: 4rem 3rem;
+	}
+
+	/*Literature*/
+	.card-hobbies #book {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin: -2rem -5rem;
+	}
+
+	.card-hobbies #book2 {
+		width: 2.7rem;
+		height: 2.7rem;
+		margin: 5rem 2.2rem;
+	}
+
+	/*Music*/
+	.card-hobbies #music {
+		width: 7rem;
+		height: 7rem;
+		margin: -4.25rem -7rem;
+	}
+
+	.card-hobbies #music2 {
+		width: 2rem;
+		height: 2rem;
+		margin: 5rem 2.5rem;
+	}
+}
+
+@media (max-width: 200px) {
+	.card-hobbies {
+		width: 6rem;
+	}
 }
 
 /*# sourceMappingURL=hobbies.css.map */

@@ -1,50 +1,294 @@
 h1 {
-  color: #FF1CC1;
-  font-family: sans-serif, Helvetica, Arial;
+	color: #FF1CC1;
+	font-family: sans-serif, Helvetica, Arial;
 }
 
 h4 {
-  color: #B130FA;
+	color: #B130FA;
 }
 
 p {
-  color: #C8B8ED;
-  font-size: 1.1rem;
-  font-weight: 500;
+	color: #C8B8ED;
+	font-size: 1.1rem;
+	font-weight: 500;
 }
 
 .proyects #text-encryptor {
-  width: 30rem;
-  border-radius: 8px;
+	width: 30rem;
+	border-radius: 8px;
 }
 
 .proyects .button {
-  width: 13rem;
-  padding: 0.6rem 1rem;
-  border: 1px solid #4DD7F1;
-  border-radius: 4px;
-  background-color: #24336C;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #284E98), to(#24336C));
-  background-image: linear-gradient(#284E98 10%, #24336C 100%);
-  cursor: pointer;
+	width: 13rem;
+	padding: 0.6rem 1rem;
+	border: 1px solid #4DD7F1;
+	border-radius: 4px;
+	background-color: #24336C;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 3px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #284E98), to(#24336C));
+	background-image: linear-gradient(#284E98 10%, #24336C 100%);
+	cursor: pointer;
 }
 
-.proyects .button:hover, .proyects .button:focus {
-  background-color: #284E98;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4DD7F1), to(#284E98));
-  background-image: linear-gradient(#4DD7F1 10%, #284E98 100%);
+.proyects .button:hover,
+.proyects .button:focus {
+	background-color: #284E98;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4DD7F1), to(#284E98));
+	background-image: linear-gradient(#4DD7F1 10%, #284E98 100%);
 }
 
 .proyects .button a {
-  color: #EFEFEF;
-  font-size: 0.95rem;
-  font-weight: 600;
+	color: #EFEFEF;
+	font-size: 0.95rem;
+	font-weight: 600;
 }
 
 .proyects .button-image {
-  width: 3rem;
+	width: 3rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 1210px) {
+	.proyects #text-encryptor {
+		width: 28rem;
+	}
+}
+
+@media (max-width: 1210px) {
+	.proyects #text-encryptor {
+		width: 26rem;
+	}
+}
+
+@media (max-width: 1045px) {
+	.proyects #text-encryptor {
+		width: 24rem;
+	}
+}
+
+@media (max-width: 1045px) {
+	.proyects #text-encryptor {
+		width: 22rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.proyects #text-encryptor {
+		width: 250%;
+	}
+
+	.text-proyect1 {
+		margin-left: 1rem;
+	}
+
+	.button1 {
+		position: absolute;
+		margin-top: -10rem;
+		margin-left: 25rem;
+	}
+
+	.button2 {
+		position: absolute;
+		margin-top: -5rem;
+		margin-left: 25rem;
+	}
+}
+
+@media (max-width: 785px) {
+	.button1 {
+		margin-top: -10rem;
+		margin-left: 22rem;
+	}
+
+	.button2 {
+		margin-top: -5rem;
+		margin-left: 22rem;
+	}
+}
+
+@media (max-width: 720px) {
+	.proyects .button {
+		width: 11rem;
+	}
+
+	.button1 {
+		margin-top: -15rem;
+		margin-left: 20rem;
+	}
+
+	.button2 {
+		width: 10rem;
+		margin-top: -8rem;
+		margin-left: 20rem;
+	}
+}
+
+@media (max-width: 660px) {
+	.proyects .button {
+		width: 8rem;
+	}
+
+	.button1 {
+		width: 10rem;
+		margin-top: -15rem;
+		margin-left: 20rem;
+	}
+
+	.button2 {
+		margin-top: -8rem;
+		margin-left: 20rem;
+	}
+}
+
+@media (max-width: 615px) {
+	.button1 {
+		margin-top: -15rem;
+		margin-left: 17rem;
+	}
+
+	.button2 {
+		margin-top: -8rem;
+		margin-left: 17rem;
+	}
+}
+
+@media (max-width: 565px) {
+	.text-proyect1 {
+		margin-left: 0.5rem;
+	}
+
+	.button1 {
+		margin-top: -18rem;
+		margin-left: 15rem;
+	}
+
+	.button2 {
+		margin-top: -10rem;
+		margin-left: 15rem;
+	}
+}
+
+@media (max-width: 520px) {
+	.proyects .button {
+		width: 6rem;
+	}
+
+	.button1 {
+		margin-top: -18rem;
+		margin-left: 12.5rem;
+	}
+
+	.button2 {
+		margin-top: -10rem;
+		margin-left: 12.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.button1 {
+		margin-top: -22rem;
+		margin-left: 12.5rem;
+	}
+
+	.button2 {
+		margin-top: -14rem;
+		margin-left: 12.5rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.text-proyect1 {
+		padding: 0 !important;
+	}
+
+	.proyects .button {
+		width: 5rem;
+	}
+
+	.proyects .button a {
+		font-size: 0.7rem;
+	}
+
+	.proyects .button-image {
+		width: 2rem;
+	}
+
+	.button1 {
+		margin-top: -16rem;
+		margin-left: 16rem;
+	}
+
+	.button2 {
+		margin-top: -8rem;
+		margin-left: 16rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.button1 {
+		margin-top: -16rem;
+		margin-left: 15rem;
+	}
+
+	.button2 {
+		margin-top: -8rem;
+		margin-left: 15rem;
+	}
+}
+
+@media (max-width: 410px) {
+	.text-proyect1 {
+		padding: 0 !important;
+		margin-bottom: 10rem;
+	}
+
+	.button1 {
+		margin-top: 2rem;
+		margin-left: 1rem;
+	}
+
+	.button2 {
+		margin-top: 2rem;
+		margin-left: 7rem;
+	}
+}
+
+@media (max-width: 280px) {
+	.button1 {
+		margin-top: 2rem;
+		margin-left: -2rem;
+	}
+
+	.button2 {
+		margin-top: 2rem;
+		margin-left: 5rem;
+	}
+}
+
+@media (max-width: 225px) {
+	.proyects .button {
+		width: 4rem;
+	}
+
+	.proyects .button a {
+		font-size: 0.5rem;
+	}
+
+	.proyects .button-image {
+		width: 1.5rem;
+	}
+
+	.button1 {
+		margin-top: 2rem;
+		margin-left: -2rem;
+	}
+
+	.button2 {
+		margin-top: 2rem;
+		margin-left: 3rem;
+	}
 }
 
 /*# sourceMappingURL=proyects.css.map */

@@ -12,4 +12,117 @@
 	transform: scale(1.1) rotate(10deg);
 }
 
+/*Responsive*/
+@media (max-width: 1320px) {
+	.card-social {
+		width: 11.5rem;
+	}
+}
+
+@media (max-width: 1280px) {
+	.card-social {
+		width: 10.5rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.card-social {
+		width: 9.5rem;
+	}
+}
+
+@media (max-width: 1080px) {
+	.card-social {
+		width: 8.5rem;
+	}
+}
+
+@media (max-width: 985px) {
+	.card-social {
+		width: 7.5rem;
+	}
+}
+
+@media (max-width: 890px) {
+	.card-social {
+		width: 6rem;
+	}
+}
+
+@media (max-width: 745px) {
+	.card-social {
+		width: 10rem;
+	}
+
+	.card-social {
+		width: 5rem;
+	}
+}
+
+@media (max-width: 660px) {
+	.card-social {
+		width: 7rem;
+	}
+}
+
+@media (max-width: 495px) {
+	.card-social {
+		width: 6rem;
+		margin-left: -0.5rem;
+	}
+}
+
+@media (max-width: 445px) {
+	.card-social img {
+		width: 15rem;
+	}
+
+	.card-social {
+		width: 4rem;
+	}
+}
+
+@media (max-width: 355px) {
+	.card-social img {
+		width: 14rem;
+		margin-left: -0.5rem;
+	}
+
+	.card-social {
+		width: 3.5rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.card-social img {
+		width: 16rem;
+	}
+
+	.card-social {
+		width: 6rem;
+	}
+}
+
+@media (max-width: 240px) {
+	.card-social img {
+		width: 14rem;
+	}
+
+	.card-social {
+		width: 100%;
+	}
+}
+
+@media (max-width: 240px) {
+	.card-social img {
+		width: 14rem;
+	}
+
+	.card-social {
+		width: 100%;
+	}
+}
+
+
+
 /*# sourceMappingURL=socialMedia.css.map */

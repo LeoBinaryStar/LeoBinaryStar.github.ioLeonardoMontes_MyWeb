@@ -22,8 +22,8 @@
 
 <body>
 	<div class="row-fluid">
-		<header class="col-md-12 mt-2">
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<header class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
 				<div class="container-fluid">
 					<a class="navbar-brand" href="#"><img src="multimedia/IconsStar.ico" alt="IconoLeoDEV"
 							class="icon"></a>
@@ -36,38 +36,34 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">¿Who I am?</a>
+								<a class="nav-link" aria-current="page" href="#AboutMe">About me</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Studies</a>
+								<a class="nav-link" href="#Skills">Skills</a>
 							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-									data-bs-toggle="dropdown" aria-expanded="false">
-									Skills
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
-								</ul>
+							<li class="nav-item">
+								<a class="nav-link" href="#Hobbies">Hobbies</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Studies">Studies</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#Languages">Languages</a>
 							</li>
 							<ul class="navbar-nav mb-2 mb-lg-0">
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-										data-bs-toggle="dropdown" aria-expanded="false">
+									<a class="nav-link dropdown-toggle" href="#Proyects" id="navbarDropdown"
+										role="button" data-bs-toggle="dropdown" aria-expanded="false">
 										Proyects
 									</a>
 									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="#">Action</a></li>
-										<li><a class="dropdown-item" href="#">Another action</a></li>
+										<li><a class="dropdown-item" href="#TextEncrypter">Text
+												encrypter</a>
+										</li>
 										<li>
 											<hr class="dropdown-divider">
 										</li>
-										<li><a class="dropdown-item" href="#">Something else here</a></li>
+										<li><a class="dropdown-item" href="#">More coming soon</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -76,8 +72,7 @@
 							<li class="nav-item">
 								<form class="d-flex">
 									<button class="btn btn-outline-primary me-3" type="button"><a
-											href="https://walink.co/3295bb" target="_blank">Contact
-											me</a></button>
+											href="https://walink.co/3295bb" target="_blank">Contact me now!</a></button>
 								</form>
 							</li>
 						</ul>
@@ -86,9 +81,9 @@
 			</nav>
 		</header>
 	</div>
-	<section class="col-12 mb-3">
+	<section id="AboutMe" class="col-12 mb-3">
 		<div class="row">
-			<section class="item col-8 p-5 presentation">
+			<section class="content-presentation col-8 p-5 presentation">
 				<h1>✌🏻 Hi , Here _Leonardo Montes_ <br>
 					<h2>_FrontEnd Developer_</h2>
 				</h1>
@@ -134,12 +129,12 @@
 					</div>
 				</section>
 			</section>
-			<div class="item col-4 p-3">
+			<div class="content-photo item col-4 p-3">
 				<img class="myPhoto" src="multimedia/YoInformal.jpg" alt="Montes Leonardo">
 			</div>
 		</div>
 	</section>
-	<section class="skills col-11 mx-5">
+	<section id="Skills" class="skills col-11 mx-5">
 		<h2>Skills</h2>
 		<section class="row col-12">
 			<div class="card-skills col-2 mb-4">
@@ -184,14 +179,14 @@
 			</div>
 		</section>
 	</section>
-	<section class="skills col-11 mt-5 mx-5">
+	<section id="Hobbies" class="skills col-11 mt-5 mx-5">
 		<h2>Hobbies</h2>
 		<section class="row col-12">
 			<div class="card-hobbies col-2 mb-4">
 				<img id="celeste" src="multimedia/hobbies/ico-celeste.png" alt="Celeste">
 				<img id="overwatch" src="multimedia/hobbies/ico-overwatch.png" alt="Overwatch">
 				<h3>Video games</h3>
-				<p>"My other love besides programming"</p>
+				<p>"My other love besides coding"</p>
 			</div>
 			<div class="card-hobbies col-2 mb-4">
 				<img id="pokemon" src="multimedia/hobbies/ico-pokemon.png" alt="Pokemon">
@@ -225,9 +220,9 @@
 			</div>
 		</section>
 	</section>
-	<section class="training col-11 mt-5 mx-5">
+	<section id="Studies" class="training col-11 mt-5 mx-5">
 		<h2>Training</h2>
-		<section class="row col-12">
+		<section class="studies row col-12">
 			<div class="card-training col-2 mb-4">
 				<img src="multimedia/training/ico-cbtis.png" alt="CBTIS145">
 				<h3>CBTIS 145</h3>
@@ -245,7 +240,7 @@
 			</div>
 		</section>
 	</section>
-	<section class="languages col-11 mt-5 mx-5">
+	<section id="Languages" class="languages col-11 mt-5 mx-5">
 		<h2>Languages</h2>
 		<section class="row col-12">
 			<div class="card-languages col-2 mb-4">
@@ -265,25 +260,24 @@
 			</div>
 		</section>
 	</section>
-
-	<section class="col-11 mt-5 mx-5">
+	<section id="Proyects" class="col-11 mt-5 mx-5">
 		<h2>Proyects</h2>
 		<div class="row">
 			<div class="proyects col-5 p-3">
 				<img id="text-encryptor" src="multimedia/proyects/Encriptador y Desencriptador de textos.png"
 					alt="text encryptor">
 			</div>
-			<section class="proyects col-7 p-5 presentation">
+			<section id="TextEncrypter" class="text-proyect1 proyects col-7 p-5 presentation">
 				<h4>Text encryptor</h4>
 				<p>My first Alura & Oracle project, where I made a text encrypter and decryptor. I faced positioning,
 					layout and responsive
 					difficulties that I was able to overcome at the same time the logic of its encryption.
 				</p>
-				<button class="button"><a target="_blank"
+				<button class="button button1"><a target="_blank"
 						href="https://leobinarystar.github.io/Challenge-ONE-Sprint-01-Construye-un-encriptador-de-texto-con-Javascript/"><img
 							class="button-image" src="multimedia/proyects/ico-web.png" alt="Web"> Go to
 						website</a></button>
-				<button class="button"><a target="_blank"
+				<button class="button button2"><a target="_blank"
 						href="https://github.com/LeoBinaryStar/Challenge-ONE-Sprint-01-Construye-un-encriptador-de-texto-con-Javascript"><img
 							class="button-image" src="multimedia/proyects/ico-repositorio.png" alt="Repository"> Go to
 						repository</a></button>
@@ -334,6 +328,24 @@
 	const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 	const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 	const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+	$(window).on('scroll', function () {
+
+		var scrollPosition = $(window).scrollTop();
+
+		$('section').each(function () {
+			var sectionTop = $(this).offset().top;
+			var sectionHeight = $(this).outerHeight();
+			var sectionId = $(this).attr('id');
+			var correspondingLink = $('a[href="#' + sectionId + '"]');
+
+			if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+				correspondingLink.addClass('active');
+			} else {
+				correspondingLink.removeClass('active');
+			}
+		});
+	});
+
 </script>
 
 </html>

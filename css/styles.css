@@ -23,6 +23,21 @@ a {
 	text-decoration: none;
 }
 
+.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+}
+
+#AboutMe {
+	padding-top: 4.75rem;
+}
+
+
+
+
+
+
 
 
 /*# sourceMappingURL=styles.css.map */
