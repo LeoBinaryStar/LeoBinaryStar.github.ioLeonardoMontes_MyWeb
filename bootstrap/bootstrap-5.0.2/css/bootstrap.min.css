@@ -3528,9 +3528,13 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:hover {
-	color: #fff;
+	color: #ddefff;
 	background-color: #0d6efd;
-	border-color: #0d6efd
+	border-color: #8AB3EC
+}
+
+.btn-outline-primary:hover a {
+	color: #ddefff;
 }
 
 .btn-check:focus+.btn-outline-primary,
@@ -3558,13 +3562,12 @@ fieldset:disabled .btn {
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-	color: #0d6efd;
+	color: #8AB3EC;
 	background-color: transparent
 }
 
 .btn-outline-secondary {
-	color: #6c757d;
-	border-color: #6c757d
+	color: #8AB3EC border-color: #6c757d
 }
 
 .btn-outline-secondary:hover {
@@ -6350,7 +6353,7 @@ fieldset:disabled .btn {
 .bs-tooltip-top .tooltip-arrow::before {
 	top: -1px;
 	border-width: .4rem .4rem 0;
-	border-top-color: #000
+	border-top-color: #E5E1EF
 }
 
 .bs-tooltip-auto[data-popper-placement^=right],

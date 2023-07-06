@@ -30,7 +30,12 @@ a {
 	z-index: 9;
 }
 
-#AboutMe {
+#AboutMe,
+#Skills,
+#Hobbies,
+#Studies,
+#Languages,
+#Proyects {
 	padding-top: 4.75rem;
 }
 

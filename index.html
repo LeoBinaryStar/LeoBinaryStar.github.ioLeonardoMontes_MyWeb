@@ -63,7 +63,7 @@
 										<li>
 											<hr class="dropdown-divider">
 										</li>
-										<li><a class="dropdown-item" href="#">More coming soon</a></li>
+										<li><a class="dropdown-item" href="#Proyects">More coming soon</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -290,24 +290,24 @@
 		<h5>Hire me! :D</h5>
 		<section class="row col-12">
 			<div class="flex">
-				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
 					data-bs-custom-class="custom-tooltip" title="Let's connect on linkedin">
 					<a href="https://www.linkedin.com/in/leonardomontesb/" target="_blank"><img
 							src="multimedia/social-media/ico_linkedin_clean.png" alt="linkedin"></a>
 				</button>
 
-				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
 					data-bs-custom-class="custom-tooltip" title="Follow me on Github">
 					<a href="https://github.com/LeoBinaryStar" target="_blank"><img
 							src="multimedia/social-media/ico_github_clean.png" alt="github"></a>
 				</button>
 
-				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
 					data-bs-custom-class="custom-tooltip" title="Mail me">
 					<a href="mailto:leonardo.dani2003@gmail.com?cc=👋🏻 Hi, I want to contact" target="_blank"><img
 							src="multimedia/social-media/ico_email_clean.png" alt="email"></a>
 				</button>
-				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="bottom"
+				<button type="button" class="btn" data-bs-toggle="tooltip" data-bs-placement="top"
 					data-bs-custom-class="custom-tooltip" title="Chat me on Whatsapp">
 					<a href="https://walink.co/3295bb" target="_blank"><img
 							src="multimedia/social-media/ico_whatsapp_clean.png" alt="whatsapp"></a>
@@ -317,6 +317,8 @@
 		</section>
 	</footer>
 </body>
+
+
 
 <script type=" text/javascript" src="bootstrap/jquery/jquery-3.7.0.min.js">
 			</script>
@@ -345,6 +347,23 @@
 			}
 		});
 	});
+
+	// Deshabilitar desplazamiento
+	function disableScroll() {
+		// Guardar posición actual de desplazamiento
+		var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		var scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+		// Deshabilitar desplazamiento
+		window.onscroll = function () {
+			window.scrollTo(scrollLeft, scrollTop);
+		};
+	}
+
+	// Habilitar desplazamiento
+	function enableScroll() {
+		window.onscroll = null;
+	}
 
 </script>
 
